@@ -27,3 +27,7 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+" enable easy file making and autowriting for python
+set makeprg=python\ %
+set autowrite
